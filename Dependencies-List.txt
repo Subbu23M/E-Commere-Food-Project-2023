@@ -6,3 +6,9 @@
 
 3)To install sweetalert 
   npm i sweetalert
+
+4)To install RTK
+  npm i @reduxjs/toolkit
+
+5)To install react-redux(react binders)
+  npm i react-redux
