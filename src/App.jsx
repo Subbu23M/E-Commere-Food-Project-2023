@@ -1,11 +1,9 @@
-import { DisplayProducts } from "./Components/DisplayProducts"
-import { NavBar } from "./Components/NavBar"
-
 export const App = () => {
     return (
         <>
-            <NavBar/>
-            <DisplayProducts/>
+            <h1>
+                Hello World!
+            </h1>
         </>
     )
 }
