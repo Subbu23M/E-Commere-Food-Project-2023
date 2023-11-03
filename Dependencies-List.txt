@@ -13,13 +13,8 @@
 5)To install react-redux(react binders)
   npm i react-redux
 
-6)To install uuid
-  npm i uuid
-
-7)To install react-router-dom-v6
+6)To install react-router-dom-v6
   npm install react-router-dom@6
 
-8)To install react-icons
+7)To install react-icons
   npm i react-icons
-
-import {FaTrash} from 'react-icons/fa'

@@ -25,6 +25,45 @@ body {
     box-shadow: none;
 }
 
-.MuiBadge-root{
+.MuiBadge-root {
     font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+// Styles for Cart Icon
+.nav-container {
+    display: block;
+    position: relative;
+
+    svg {
+        width: 40px;
+        color: lavender;
+        font-size: 25px;
+    }
+
+    .amount-container {
+        position: absolute;
+        top: -0.6rem;
+        right: -0.7rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+        background: var(--clr-primary-light);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .total-amount {
+            color: pink;
+            margin-bottom: 0;
+            font-size: 1.25rem;
+        }
+    }
 }
